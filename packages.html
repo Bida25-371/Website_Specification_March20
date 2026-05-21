@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Journeys & Destinations | Kopano Travel Co.</title>
+    <meta name="description" content="Explore curated itineraries across Africa, Europe, Asia, and the Pacific with flexible planning options.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Kopano Travel Co.">
+            </a>
+            <ul class="nav-links">
+                <button class="mobile-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <li><a href="packages.html" class="active">Journeys</a></li>
+                <li><a href="booking.html">Plan Trip</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="contact.html">Feedback</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>Explore Our Signature Journeys</h1>
+            <p>Thoughtfully designed itineraries for curious and comfort-focused travelers.</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section style="padding: 2rem 0; background: var(--white); border-bottom: 1px solid #e5e7eb;">
+        <div class="container">
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: center;">
+                <span style="font-weight: 600;">Browse by region:</span>
+                <button class="btn btn-primary filter-btn" data-filter="all" style="padding: 0.5rem 1rem;">All Journeys</button>
+                <button class="btn btn-outline filter-btn" data-filter="africa" style="padding: 0.5rem 1rem; color: var(--text-dark); border-color: #e5e7eb;">Africa</button>
+                <button class="btn btn-outline filter-btn" data-filter="europe" style="padding: 0.5rem 1rem; color: var(--text-dark); border-color: #e5e7eb;">Europe</button>
+                <button class="btn btn-outline filter-btn" data-filter="northamerica" style="padding: 0.5rem 1rem; color: var(--text-dark); border-color: #e5e7eb;">North America</button>
+                <button class="btn btn-outline filter-btn" data-filter="asia" style="padding: 0.5rem 1rem; color: var(--text-dark); border-color: #e5e7eb;">Asia</button>
+                <button class="btn btn-outline filter-btn" data-filter="pacific" style="padding: 0.5rem 1rem; color: var(--text-dark); border-color: #e5e7eb;">Pacific</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Packages Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Africa</h2>
+            <div class="packages-grid">
+                <div class="package-card" data-category="africa">
+                    <div class="package-image" style="background-image: url('cape town.jpg')">
+                        <span class="package-badge">Honeymoon</span>
+                                                <div class="package-overlay">
+                            <h3>Cape Peninsula Escape</h3>
+                            <p>Discover coastline viewpoints, food markets, and city highlights with a balanced itinerary.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P3,999</div>
+                                <a href="booking.html?package=capetown" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Cape Peninsula Escape</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 7 Days</span>
+                            <span><i class="fas fa-moon"></i> 6 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Discover coastline viewpoints, food markets, and city highlights with a balanced itinerary.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Round-trip international flights</li>
+                            <li><i class="fas fa-check"></i> 5-star beachfront resort</li>
+                            <li><i class="fas fa-check"></i> Daily breakfast buffet</li>
+                            <li><i class="fas fa-check"></i> Ubud rice terrace tour</li>
+                            <li><i class="fas fa-check"></i> Traditional Balinese spa</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=bali" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#bali-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package-card" data-category="africa">
+                    <div class="package-image" style="background-image: url('cairo.jpg')">
+                        <span class="package-badge">Luxury</span>
+                                                <div class="package-overlay">
+                            <h3>Cairo Heritage Route</h3>
+                            <p>Experience iconic landmarks, neighborhood markets, and guided museum visits.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P5,499</div>
+                                <a href="booking.html?package=cairo" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Cairo Heritage Route</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                            <span><i class="fas fa-moon"></i> 5 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Experience iconic landmarks, neighborhood markets, and guided museum visits.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Seaplane transfer included</li>
+                            <li><i class="fas fa-check"></i> Overwater villa accommodation</li>
+                            <li><i class="fas fa-check"></i> All-inclusive meals & drinks</li>
+                            <li><i class="fas fa-check"></i> Sunset dolphin cruise</li>
+                            <li><i class="fas fa-check"></i> Underwater restaurant dining</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=maldives" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#maldives-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package-card" data-category="africa">
+                    <div class="package-image" style="background-image: url('durban.jpg')">
+                        <span class="package-badge">Adventure</span>
+                                                <div class="package-overlay">
+                            <h3>Durban Coastline Break</h3>
+                            <p>Enjoy beach days, local cuisine, and relaxed coastal adventures with flexible pacing.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P2,199</div>
+                                <a href="booking.html?package=durban" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Durban Coastline Break</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 8 Days</span>
+                            <span><i class="fas fa-moon"></i> 7 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Enjoy golden beaches, warm Indian Ocean waters, and vibrant Zulu culture.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Multi-city flights included</li>
+                            <li><i class="fas fa-check"></i> 3 & 4-star hotels</li>
+                            <li><i class="fas fa-check"></i> Phi Phi Islands boat tour</li>
+                            <li><i class="fas fa-check"></i> Elephant sanctuary visit</li>
+                            <li><i class="fas fa-check"></i> Thai cooking class</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=thailand" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#thailand-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Europe Packages -->
+    <section class="section" style="background: var(--white);">
+        <div class="container">
+            <h2 class="section-title">Europe</h2>
+            <div class="packages-grid">
+                <!-- Paris Package -->
+                <div class="package-card" data-category="europe">
+                    <div class="package-image" style="background-image: url('paris.jpg')">
+                        <span class="package-badge">Luxury</span>
+                        <div class="package-overlay">
+                            <h3>Paris City Lights</h3>
+                            <p>Experience the City of Light with Eiffel Tower, Louvre Museum, and charming café culture.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P4,999</div>
+                                <a href="booking.html?package=paris" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Paris City Lights</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                            <span><i class="fas fa-moon"></i> 4 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Romantic getaway with Seine cruise, Montmartre tour, and fine dining.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Round-trip flights</li>
+                            <li><i class="fas fa-check"></i> 4-star hotel near Champs-Élysées</li>
+                            <li><i class="fas fa-check"></i> Eiffel Tower dinner</li>
+                            <li><i class="fas fa-check"></i> Louvre Museum tickets</li>
+                            <li><i class="fas fa-check"></i> Versailles day trip</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=paris" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#paris-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- London Package -->
+                <div class="package-card" data-category="europe">
+                    <div class="package-image" style="background-image: url('london.avif')">
+                        <span class="package-badge">Family</span>
+                        <div class="package-overlay">
+                            <h3>London City Explorer</h3>
+                            <p>Explore British history, royal palaces, and iconic landmarks in the vibrant capital.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P3,799</div>
+                                <a href="booking.html?package=london" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>London City Explorer</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                            <span><i class="fas fa-moon"></i> 5 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Family-friendly tour with museums, castles, and West End shows.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Round-trip flights</li>
+                            <li><i class="fas fa-check"></i> Central London hotel</li>
+                            <li><i class="fas fa-check"></i> Tower of London tour</li>
+                            <li><i class="fas fa-check"></i> London Eye tickets</li>
+                            <li><i class="fas fa-check"></i> Warner Bros Studio Tour</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=london" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#london-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rome Package -->
+                <div class="package-card" data-category="europe">
+                    <div class="package-image" style="background-image: url('colloseum.jpg')">
+                        <span class="package-badge">Budget</span>
+                        <div class="package-overlay">
+                            <h3>Rome Heritage Walk</h3>
+                            <p>Walk through ancient history with Colosseum, Vatican City, and authentic Italian cuisine.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P2,499</div>
+                                <a href="booking.html?package=rome" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Rome Heritage Walk</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 4 Days</span>
+                            <span><i class="fas fa-moon"></i> 3 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Affordable exploration of the Eternal City's ancient wonders.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Round-trip flights</li>
+                            <li><i class="fas fa-check"></i> Budget-friendly hotel</li>
+                            <li><i class="fas fa-check"></i> Colosseum tour</li>
+                            <li><i class="fas fa-check"></i> Vatican Museums</li>
+                            <li><i class="fas fa-check"></i> Food walking tour</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=rome" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#rome-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- North America Packages -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">North America</h2>
+            <div class="packages-grid">
+                <!-- New York Package -->
+                <div class="package-card" data-category="northamerica">
+                    <div class="package-image" style="background-image: url('NYC.jpg')">
+                        <span class="package-badge">Luxury</span>
+                        <div class="package-overlay">
+                            <h3>New York Skyline Week</h3>
+                            <p>Experience the Big Apple with Broadway shows, Central Park, and iconic skyline views.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P8,999</div>
+                                <a href="booking.html?package=newyork" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>New York Skyline Week</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 5 Days</span>
+                            <span><i class="fas fa-moon"></i> 4 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Luxury Manhattan experience with premium accommodations and exclusive tours.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Round-trip flights</li>
+                            <li><i class="fas fa-check"></i> 5-star Times Square hotel</li>
+                            <li><i class="fas fa-check"></i> Broadway show tickets</li>
+                            <li><i class="fas fa-check"></i> Helicopter tour</li>
+                            <li><i class="fas fa-check"></i> Statue of Liberty access</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=newyork" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#newyork-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asia Packages -->
+    <section class="section" style="background: var(--white);">
+        <div class="container">
+            <h2 class="section-title">Asia</h2>
+            <div class="packages-grid">
+                <!-- Bali Package -->
+                <div class="package-card" data-category="asia">
+                    <div class="package-image" style="background-image: url('bali.jpg')">
+                        <span class="package-badge">Honeymoon</span>
+                        <div class="package-overlay">
+                            <h3>Bali Culture & Coast</h3>
+                            <p>Tropical paradise with rice terraces, ancient temples, and pristine beaches.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P8,999</div>
+                                <a href="booking.html?package=bali" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Bali Culture & Coast</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 7 Days</span>
+                            <span><i class="fas fa-moon"></i> 6 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Romantic island escape with spa treatments and cultural experiences.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Round-trip flights</li>
+                            <li><i class="fas fa-check"></i> Beachfront villa</li>
+                            <li><i class="fas fa-check"></i> Couples spa treatments</li>
+                            <li><i class="fas fa-check"></i> Temple tours</li>
+                            <li><i class="fas fa-check"></i> Sunset dinner cruise</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=bali" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#bali-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pacific Packages -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Pacific</h2>
+            <div class="packages-grid">
+                <!-- Bora Bora Package -->
+                <div class="package-card" data-category="pacific">
+                    <div class="package-image" style="background-image: url('bora bora.jpg')">
+                        <span class="package-badge">Honeymoon</span>
+                        <div class="package-overlay">
+                            <h3>Bora Bora Lagoon Retreat</h3>
+                            <p>Ultimate tropical luxury with overwater bungalows and crystal-clear lagoons.</p>
+                            <div class="package-actions">
+                                <div class="package-price">From P3,299</div>
+                                <a href="booking.html?package=borabora" class="btn btn-primary btn-small">Plan Trip</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Bora Bora Lagoon Retreat</h3>
+                        <div class="package-meta">
+                            <span><i class="fas fa-clock"></i> 6 Days</span>
+                            <span><i class="fas fa-moon"></i> 5 Nights</span>
+                        </div>
+                        <p style="color: var(--text-light); margin-bottom: 1rem;">Exclusive overwater bungalow experience with world-class diving.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Round-trip flights</li>
+                            <li><i class="fas fa-check"></i> Overwater bungalow</li>
+                            <li><i class="fas fa-check"></i> All-inclusive meals</li>
+                            <li><i class="fas fa-check"></i> Snorkeling equipment</li>
+                            <li><i class="fas fa-check"></i> Private boat tours</li>
+                        </ul>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <a href="booking.html?package=borabora" class="btn btn-primary" style="flex: 1;">Plan Trip</a>
+                            <a href="#borabora-details" class="btn btn-outline" style="color: var(--primary-color); border-color: var(--primary-color);">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('boat.avif') center/cover; color: white;">
+        <div class="container" style="text-align: center;">
+            <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Need a More Personalized Itinerary?</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Work with our advisors to design a route matched to your pace, priorities, and budget.
+            </p>
+            <a href="booking.html?custom=true" class="btn btn-secondary btn-large">
+                Build Custom Plan
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <img src="logo.png" alt="Kopano Travel Co." style="height: 70px; margin-bottom: 1rem;">
+                    <p style="color: var(--text-light); margin-top: 1rem; font-style: italic;">"Journey with purpose, travel with pride."</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="packages.html">Signature Journeys</a></li>
+                        <li><a href="booking.html">Plan Trip</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="contact.html">Feedback</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Reach Us</h4>
+                    <ul>
+                        <li>Phone: +267 73 555 210</li>
+                        <li>Email: contact@kopanotravel.co.bw</li>
+                        <li>Address: Plot 2100 Kgale View, Gaborone, Botswana</li>
+                        <li>Hours: Mon-Fri: 8AM - 6PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kopano Travel Co. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/+26773555210" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
